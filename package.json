@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Get basic git repository information about a directory.",
   "scripts": {
-    "test-server": "mocha --colors --watch --recursive './test/**/*.test.js'",
-    "test": "mocha --colors --recursive './test/**/*.test.js'"
+    "test-server": "mocha --colors --watch --recursive './test/**/*.test.js' || rm -rf ./test/tmp-*",
+    "test": "mocha --colors --recursive './test/**/*.test.js' || rm -rf ./test/tmp-*"
   },
   "main": "./src/index.js",
   "keywords": [
