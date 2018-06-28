@@ -2,6 +2,8 @@
 
 Get basic git repository information about a directory.
 
+[![Travis](https://img.shields.io/travis/atlassubbed/atlas-repo-info.svg)](https://travis-ci.org/atlassubbed/atlas-repo-info)
+
 ---
 
 ## install
