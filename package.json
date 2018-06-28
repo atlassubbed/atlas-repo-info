@@ -1,6 +1,6 @@
 {
   "name": "atlas-repo-info",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get basic git repository information about a directory.",
   "scripts": {
     "test-server": "mocha --colors --watch --recursive './test/**/*.test.js' || rm -rf ./test/tmp-*",
